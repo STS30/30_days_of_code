@@ -15,16 +15,16 @@ int main() {
     scanf("%d",&I);
     scanf("%lf",&D);
     fflush(stdin);
-    gets(S);
+    fgets(S,100,stdin);
     // Print the sum of both integer variables on a new line.
     printf("%d\n",i+I);
     // Print the sum of the double variables on a new line.
     printf("%0.1lf\n",d+D);
     // Concatenate and print the String variables on a new line
     for (int n=0;s[n]!='\0';n++)
-        printf("%c",s[n]);
+       printf("%c",s[n]);
 
-        puts(S);
+        fputs(S,stdout);
     // The 's' variable above should be printed first.
 
     return 0;
